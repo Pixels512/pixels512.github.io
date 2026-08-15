@@ -35,6 +35,33 @@
       footer { margin-top: 40px; font-size: 0.9rem; color: #7a6a58; }
       @media (prefers-color-scheme: dark) { footer { color: #a2917c; } }
     </style>
+    <!-- Site identity. The Organization @id deliberately matches the one the
+         Booklore documentation pages already cite as their publisher, so the whole
+         domain resolves to ONE organization entity rather than two that happen to
+         share a name. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://pixels512.github.io/#website",
+          "url": "https://pixels512.github.io/",
+          "name": "Pixels512",
+          "description": "Small, private iOS apps that keep your data on your device.",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://pixels512.github.io/booklore-legal/#org" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://pixels512.github.io/booklore-legal/#org",
+          "name": "Pixels512",
+          "url": "https://pixels512.github.io/",
+          "email": "suasion.78.hymn@icloud.com"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <main>
