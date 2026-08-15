@@ -1,0 +1,6 @@
+# Pixels512 — https://pixels512.github.io/
+# Everything here is public documentation for published apps; nothing is disallowed.
+User-agent: *
+Allow: /
+
+Sitemap: https://pixels512.github.io/booklore-legal/sitemap.xml
